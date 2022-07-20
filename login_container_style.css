@@ -1,0 +1,66 @@
+.login_container
+{
+    width: 600px;
+    height: 280px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 7px solid darkblue;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container_head
+{
+    background-color: darkblue;
+    height: 30px;
+    border: 10px solid darkblue;
+    
+}
+
+.enter_input
+{
+    width: 450px;
+    border-radius: 0px;
+    border-bottom-color: black;
+    border-right-color: black;
+    font-size: 28px;
+}
+
+.cbx_show_password
+{
+    margin-left: 470px;
+}
+
+.cbx_stayloggedin
+{
+    margin-left: 470px;
+    margin-top: 25px;
+}
+
+.login_button_container
+{
+    margin-left: 470px;
+    margin-top: 5px;
+}
+
+.login_button
+{
+    width: 125px; 
+    height: 50px; 
+    border-radius: 10px; 
+    background-color: darkblue; 
+    color: white; 
+    font-size: 20px; 
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.login_button:hover
+{
+    background-color: white;
+    color: darkblue;
+    transition-duration: 0.5s;
+}

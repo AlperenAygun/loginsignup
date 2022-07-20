@@ -1,0 +1,93 @@
+.signup_container
+{
+    width: 600px;
+    height: 328px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 7px solid darkblue;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.container_head
+{
+    background-color: darkblue;
+    height: 30px;
+    border: 10px solid darkblue;
+    
+}
+
+.enter_input
+{
+    width: 450px;
+    border-radius: 0px;
+    border-bottom-color: black;
+    border-right-color: black;
+    font-size: 28px;
+}
+
+.website_situation
+{
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: 607px;
+    width: 30px;
+    height: 250px;
+    background-color: darkblue;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+}
+
+.show_situation_style
+{
+    position: absolute;
+    height: 250px;
+    width: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /*left: 170px;*/
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.show_situation_style:hover
+{
+    background-color: white;
+    color: darkblue;
+    transition-duration: 0.5s;
+}
+
+.signup_button_container
+{
+   position: absolute;
+   margin-left: 470px;
+   margin-top: 50px;
+}
+
+.signup_button
+{
+    width: 125px; 
+    height: 50px; 
+    border-radius: 10px; 
+    background-color: darkblue; 
+    color: white; 
+    font-size: 20px; 
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.signup_button:hover
+{
+    background-color: white;
+    color: darkblue;
+    transition-duration: 0.5s;
+}
